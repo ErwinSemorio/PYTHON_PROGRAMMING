@@ -5,6 +5,8 @@ from selenium.webdriver.support.ui import WebDriverWait, Select
 from selenium.webdriver.support import expected_conditions as EC
 import time
 import re
+import csv
+from datetime import datetime
 
 # ==============================================================
 # CONFIG
@@ -20,6 +22,9 @@ BASE_BROWSE = "https://open-reaction-database.org/browse"
 
 # Store extracted data
 extracted_data = []
+
+# CSV filename
+csv_filename = "ordscrape.csv"
 
 # ==============================================================
 # HELPERS
@@ -211,9 +216,78 @@ def extract_modal_data(section_name="inputs"):
         print(f"    [ERROR] Failed to extract from {section_name}: {e}")
         return {"section": section_name, "value": None, "reaction_role": None, "full_text": None}
 
+def save_to_csv():
+    """Save extracted data to CSV file"""
+    print(f"\n>>> Saving data to CSV...")
+    print(f">>> Total records to save: {len(extracted_data)}")
+    
+    if not extracted_data:
+        print("✗ No data to save - extracted_data is empty!")
+        return
+    
+    try:
+        import os
+        current_dir = os.getcwd()
+        full_path = os.path.join(current_dir, csv_filename)
+        
+        print(f">>> Saving to: {full_path}")
+        
+        with open(csv_filename, 'w', newline='', encoding='utf-8') as csvfile:
+            fieldnames = ['record_id', 'section', 'value', 'reaction_role', 'full_text']
+            writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+            
+            writer.writeheader()
+            for i, record in enumerate(extracted_data, 1):
+                writer.writerow({
+                    'record_id': i,
+                    'section': record.get('section', ''),
+                    'value': record.get('value', ''),
+                    'reaction_role': record.get('reaction_role', ''),
+                    'full_text': record.get('full_text', '')
+                })
+        
+        # Verify file was created
+        if os.path.exists(full_path):
+            file_size = os.path.getsize(full_path)
+            print(f"✓ CSV saved! Records: {len(extracted_data)}, Size: {file_size} bytes")
+        else:
+            print(f"✗ File was not created at {full_path}")
+            
+    except Exception as e:
+        print(f"✗ Error saving CSV: {e}")
+        import traceback
+        traceback.print_exc()
+
+def append_to_csv(record):
+    """Append a single record to CSV file immediately"""
+    try:
+        import os
+        file_exists = os.path.exists(csv_filename)
+        
+        with open(csv_filename, 'a', newline='', encoding='utf-8') as csvfile:
+            fieldnames = ['record_id', 'section', 'value', 'reaction_role', 'full_text']
+            writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+            
+            # Write header only if file is new
+            if not file_exists:
+                writer.writeheader()
+            
+            writer.writerow({
+                'record_id': len(extracted_data),
+                'section': record.get('section', ''),
+                'value': record.get('value', ''),
+                'reaction_role': record.get('reaction_role', ''),
+                'full_text': record.get('full_text', '')
+            })
+    except Exception as e:
+        print(f"    [ERROR] Failed to append to CSV: {e}")
+
 def wait_for_modal_and_close(section_name="inputs"):
     data = extract_modal_data(section_name)
     extracted_data.append(data)
+    
+    # Save to CSV immediately after extraction
+    append_to_csv(data)
 
     close_xpaths = [
         "//div[contains(@class,'close')]",
@@ -301,6 +375,12 @@ def process_outcomes_section():
 # ==============================================================
 # MAIN SCRAPER
 # ==============================================================
+
+# Delete old CSV file if it exists to start fresh
+import os
+if os.path.exists(csv_filename):
+    os.remove(csv_filename)
+    print(f"🗑️  Removed old {csv_filename} - starting fresh")
 
 driver.get(BASE_BROWSE)
 wait_for_page_ready()
@@ -411,6 +491,9 @@ print("\n============ SUMMARY ============")
 print("Datasets processed:", datasets_done)
 print("Detail views opened:", detail_views_done)
 print("Records extracted:", len(extracted_data))
+
+# Save data to CSV
+save_to_csv()
 
 # Show sample of extracted data
 if extracted_data:

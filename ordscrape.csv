@@ -1,0 +1,2017 @@
+record_id,section,value,reaction_role,full_text
+1,inputs,CC(C)(C)[O-].[Na+],REAGENT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CC(C)(C)[O-].[Na+]""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.004480000119656324,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: REAGENT
+"
+2,inputs,CC(C)(C)[O-].[Na+],REAGENT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CC(C)(C)[O-].[Na+]""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.004480000119656324,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: REAGENT
+"
+3,inputs,CC(=O)N(C)C,SOLVENT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CC(=O)N(C)C""
+}
+amount: {
+  ""volume"": {
+    ""value"": 0.025599999353289604,
+    ""units"": ""LITER""
+  }
+}
+reaction_role: SOLVENT
+"
+4,inputs,C1CNCCN1,REACTANT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""C1CNCCN1""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.008059999905526638,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: REACTANT
+"
+5,inputs,CC1=CC(=C(C=C1)NC2=C(N=NC3=C2C=CC(=C3)Br)C#N)F,REACTANT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CC1=CC(=C(C=C1)NC2=C(N=NC3=C2C=CC(=C3)Br)C#N)F""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.0017900000093504786,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: REACTANT
+"
+6,inputs,CC(C)C1=CC(=C(C(=C1)C(C)C)C2=CC=CC=C2P(C3CCCCC3)C4CCCCC4)C(C)C,CATALYST,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CC(C)C1=CC(=C(C(=C1)C(C)C)C2=CC=CC=C2P(C3CCCCC3)C4CCCCC4)C(C)C""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.0002690000110305846,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: CATALYST
+"
+7,inputs,C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.[Pd].[Pd],CATALYST,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.[Pd].[Pd]""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.0001429999974789098,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: CATALYST
+"
+8,outcomes,CC1=CC(=C(C=C1)NC2=C(N=NC3=C2C=CC(=C3)N4CCNCC4)C#N)F,PRODUCT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CC1=CC(=C(C=C1)NC2=C(N=NC3=C2C=CC(=C3)N4CCNCC4)C#N)F""
+}
+reaction_role: PRODUCT
+is_desired_product: true
+"
+9,outcomes,,,"{
+  ""analysisKey"": """",
+  ""type"": ""YIELD"",
+  ""details"": """",
+  ""usesInternalStandard"": false,
+  ""isNormalized"": false,
+  ""usesAuthenticStandard"": false,
+  ""percentage"": {
+    ""value"": 84.69999694824219,
+    ""precision"": 0
+  },
+  ""stringValue"": """"
+}
+"
+10,outcomes,CC1=CC(=C(C=C1)NC2=C(N=NC3=C2C=CC(=C3)N4CCNCC4)C#N)F,PRODUCT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CC1=CC(=C(C=C1)NC2=C(N=NC3=C2C=CC(=C3)N4CCNCC4)C#N)F""
+}
+reaction_role: PRODUCT
+is_desired_product: true
+"
+11,outcomes,,,"{
+  ""analysisKey"": """",
+  ""type"": ""YIELD"",
+  ""details"": """",
+  ""usesInternalStandard"": false,
+  ""isNormalized"": false,
+  ""usesAuthenticStandard"": false,
+  ""percentage"": {
+    ""value"": 84.69999694824219,
+    ""precision"": 0
+  },
+  ""stringValue"": """"
+}
+"
+12,inputs,C(=O)([O-])[O-].[Cs+].[Cs+],REAGENT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""C(=O)([O-])[O-].[Cs+].[Cs+]""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.0017800000496208668,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: REAGENT
+"
+13,inputs,C(=O)([O-])[O-].[Cs+].[Cs+],REAGENT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""C(=O)([O-])[O-].[Cs+].[Cs+]""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.0017800000496208668,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: REAGENT
+"
+14,inputs,CC1=CC=CC=C1,SOLVENT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CC1=CC=CC=C1""
+}
+amount: {
+  ""volume"": {
+    ""value"": 0.11999999731779099,
+    ""units"": ""LITER""
+  }
+}
+reaction_role: SOLVENT
+"
+15,inputs,C[C@H](CN)O[Si](C)(C)C(C)(C)C,REACTANT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""C[C@H](CN)O[Si](C)(C)C(C)(C)C""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.017799999564886093,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: REACTANT
+"
+16,inputs,C1=CC=C(C=C1)COC2=C(C=C(C=C2)Br)F,REACTANT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""C1=CC=C(C=C1)COC2=C(C=C(C=C2)Br)F""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.017799999564886093,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: REACTANT
+"
+17,inputs,CC(C)C1=CC(=C(C(=C1)C(C)C)C2=CC=CC=C2P(C3CCCCC3)C4CCCCC4)C(C)C,CATALYST,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CC(C)C1=CC(=C(C(=C1)C(C)C)C2=CC=CC=C2P(C3CCCCC3)C4CCCCC4)C(C)C""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.0017800000496208668,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: CATALYST
+"
+18,inputs,CC(=O)O.CC(=O)O.[Pd],CATALYST,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CC(=O)O.CC(=O)O.[Pd]""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.0017800000496208668,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: CATALYST
+"
+19,outcomes,C[C@H](CNC1=CC(=C(C=C1)OCC2=CC=CC=C2)F)O[Si](C)(C)C(C)(C)C,PRODUCT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""C[C@H](CNC1=CC(=C(C=C1)OCC2=CC=CC=C2)F)O[Si](C)(C)C(C)(C)C""
+}
+reaction_role: PRODUCT
+is_desired_product: true
+"
+20,outcomes,,,"{
+  ""analysisKey"": """",
+  ""type"": ""YIELD"",
+  ""details"": """",
+  ""usesInternalStandard"": false,
+  ""isNormalized"": false,
+  ""usesAuthenticStandard"": false,
+  ""percentage"": {
+    ""value"": 73.5999984741211,
+    ""precision"": 0
+  },
+  ""stringValue"": """"
+}
+"
+21,outcomes,C[C@H](CNC1=CC(=C(C=C1)OCC2=CC=CC=C2)F)O[Si](C)(C)C(C)(C)C,PRODUCT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""C[C@H](CNC1=CC(=C(C=C1)OCC2=CC=CC=C2)F)O[Si](C)(C)C(C)(C)C""
+}
+reaction_role: PRODUCT
+is_desired_product: true
+"
+22,outcomes,,,"{
+  ""analysisKey"": """",
+  ""type"": ""YIELD"",
+  ""details"": """",
+  ""usesInternalStandard"": false,
+  ""isNormalized"": false,
+  ""usesAuthenticStandard"": false,
+  ""percentage"": {
+    ""value"": 73.5999984741211,
+    ""precision"": 0
+  },
+  ""stringValue"": """"
+}
+"
+23,inputs,C(=O)([O-])[O-].[Cs+].[Cs+],REAGENT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""C(=O)([O-])[O-].[Cs+].[Cs+]""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.00019200000679120421,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: REAGENT
+"
+24,inputs,C(=O)([O-])[O-].[Cs+].[Cs+],REAGENT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""C(=O)([O-])[O-].[Cs+].[Cs+]""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.00019200000679120421,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: REAGENT
+"
+25,inputs,C1COCCO1,SOLVENT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""C1COCCO1""
+}
+amount: {
+  ""volume"": {
+    ""value"": 0.012000000104308128,
+    ""units"": ""LITER""
+  }
+}
+reaction_role: SOLVENT
+"
+26,inputs,CN1CCNCC1,REACTANT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CN1CCNCC1""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.009999999776482582,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: REACTANT
+"
+27,inputs,COC(=O)C1=CC(=CC(=C1)Br)[N+](=O)[O-],REACTANT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""COC(=O)C1=CC(=CC(=C1)Br)[N+](=O)[O-]""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.007689999882131815,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: REACTANT
+"
+28,inputs,CC1(C2=C(C(=CC=C2)P(C3=CC=CC=C3)C4=CC=CC=C4)OC5=C1C=CC=C5P(C6=CC=CC=C6)C7=CC=CC=C7)C,CATALYST,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CC1(C2=C(C(=CC=C2)P(C3=CC=CC=C3)C4=CC=CC=C4)OC5=C1C=CC=C5P(C6=CC=CC=C6)C7=CC=CC=C7)C""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.00019200000679120421,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: CATALYST
+"
+29,inputs,C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.[Pd].[Pd],CATALYST,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.[Pd].[Pd]""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.00019200000679120421,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: CATALYST
+"
+30,outcomes,CN1CCN(CC1)C2=CC(=CC(=C2)C(=O)OC)[N+](=O)[O-],PRODUCT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CN1CCN(CC1)C2=CC(=CC(=C2)C(=O)OC)[N+](=O)[O-]""
+}
+reaction_role: PRODUCT
+is_desired_product: true
+"
+31,outcomes,,,"{
+  ""analysisKey"": """",
+  ""type"": ""YIELD"",
+  ""details"": """",
+  ""usesInternalStandard"": false,
+  ""isNormalized"": false,
+  ""usesAuthenticStandard"": false,
+  ""percentage"": {
+    ""value"": 65.18000030517578,
+    ""precision"": 0
+  },
+  ""stringValue"": """"
+}
+"
+32,outcomes,CN1CCN(CC1)C2=CC(=CC(=C2)C(=O)OC)[N+](=O)[O-],PRODUCT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CN1CCN(CC1)C2=CC(=CC(=C2)C(=O)OC)[N+](=O)[O-]""
+}
+reaction_role: PRODUCT
+is_desired_product: true
+"
+33,outcomes,,,"{
+  ""analysisKey"": """",
+  ""type"": ""YIELD"",
+  ""details"": """",
+  ""usesInternalStandard"": false,
+  ""isNormalized"": false,
+  ""usesAuthenticStandard"": false,
+  ""percentage"": {
+    ""value"": 65.18000030517578,
+    ""precision"": 0
+  },
+  ""stringValue"": """"
+}
+"
+34,inputs,CC(C)(C)[O-].[Na+],REAGENT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CC(C)(C)[O-].[Na+]""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.00007159999950090423,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: REAGENT
+"
+35,inputs,CC(C)(C)[O-].[Na+],REAGENT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CC(C)(C)[O-].[Na+]""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.00007159999950090423,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: REAGENT
+"
+36,inputs,CC1=CC=CC=C1,SOLVENT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CC1=CC=CC=C1""
+}
+amount: {
+  ""volume"": {
+    ""value"": 0.0010000000474974513,
+    ""units"": ""LITER""
+  }
+}
+reaction_role: SOLVENT
+"
+37,inputs,CC1=CC2=C(N1)C=C(C=C2)OC(F)(F)F,REACTANT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CC1=CC2=C(N1)C=C(C=C2)OC(F)(F)F""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.00005109999983687885,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: REACTANT
+"
+38,inputs,C1=CC=C(C=C1)COC2=CC(=CC=C2)Br,REACTANT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""C1=CC=C(C=C1)COC2=CC(=CC=C2)Br""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.00007870000263210386,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: REACTANT
+"
+39,inputs,CC(C)(C)P(C1=CC=CC=C1C2=CC=CC=C2)C(C)(C)C,CATALYST,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CC(C)(C)P(C1=CC=CC=C1C2=CC=CC=C2)C(C)(C)C""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.000015300000086426735,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: CATALYST
+"
+40,inputs,C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.[Pd].[Pd],CATALYST,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.[Pd].[Pd]""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.000010200000360782724,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: CATALYST
+"
+41,outcomes,CC1=CC2=C(N1C3=CC(=CC=C3)OCC4=CC=CC=C4)C=C(C=C2)OC(F)(F)F,PRODUCT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CC1=CC2=C(N1C3=CC(=CC=C3)OCC4=CC=CC=C4)C=C(C=C2)OC(F)(F)F""
+}
+reaction_role: PRODUCT
+is_desired_product: true
+"
+42,outcomes,,,"{
+  ""analysisKey"": """",
+  ""type"": ""YIELD"",
+  ""details"": """",
+  ""usesInternalStandard"": false,
+  ""isNormalized"": false,
+  ""usesAuthenticStandard"": false,
+  ""percentage"": {
+    ""value"": 59.06999969482422,
+    ""precision"": 0
+  },
+  ""stringValue"": """"
+}
+"
+43,outcomes,CC1=CC2=C(N1C3=CC(=CC=C3)OCC4=CC=CC=C4)C=C(C=C2)OC(F)(F)F,PRODUCT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CC1=CC2=C(N1C3=CC(=CC=C3)OCC4=CC=CC=C4)C=C(C=C2)OC(F)(F)F""
+}
+reaction_role: PRODUCT
+is_desired_product: true
+"
+44,outcomes,,,"{
+  ""analysisKey"": """",
+  ""type"": ""YIELD"",
+  ""details"": """",
+  ""usesInternalStandard"": false,
+  ""isNormalized"": false,
+  ""usesAuthenticStandard"": false,
+  ""percentage"": {
+    ""value"": 59.06999969482422,
+    ""precision"": 0
+  },
+  ""stringValue"": """"
+}
+"
+45,inputs,C(=O)([O-])[O-].[Cs+].[Cs+],REAGENT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""C(=O)([O-])[O-].[Cs+].[Cs+]""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.002219999907538295,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: REAGENT
+"
+46,inputs,C(=O)([O-])[O-].[Cs+].[Cs+],REAGENT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""C(=O)([O-])[O-].[Cs+].[Cs+]""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.002219999907538295,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: REAGENT
+"
+47,inputs,COCCOC,SOLVENT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""COCCOC""
+}
+amount: {
+  ""volume"": {
+    ""value"": 0.009999999776482582,
+    ""units"": ""LITER""
+  }
+}
+reaction_role: SOLVENT
+"
+48,inputs,CC1=CN(C=N1)C2=C(C=C(C=C2)N)OC,REACTANT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CC1=CN(C=N1)C2=C(C=C(C=C2)N)OC""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.0008870000019669533,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: REACTANT
+"
+49,inputs,CN1C[C@@H](OC2=C(C1)C=CC(=N2)Cl)C3=CC=CC=C3,REACTANT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CN1C[C@@H](OC2=C(C1)C=CC(=N2)Cl)C3=CC=CC=C3""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.0007389999809674919,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: REACTANT
+"
+50,inputs,C1CCC(CC1)P(C2CCCCC2)C3=CC=CC=C3C4=CC=CC=C4,CATALYST,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""C1CCC(CC1)P(C2CCCCC2)C3=CC=CC=C3C4=CC=CC=C4""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.00007390000246232376,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: CATALYST
+"
+51,inputs,CC(=O)O.CC(=O)O.[Pd],CATALYST,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CC(=O)O.CC(=O)O.[Pd]""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.00007390000246232376,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: CATALYST
+"
+52,outcomes,CC1=CN(C=N1)C2=C(C=C(C=C2)NC3=NC4=C(CN(C[C@@H](O4)C5=CC=CC=C5)C)C=C3)OC,PRODUCT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CC1=CN(C=N1)C2=C(C=C(C=C2)NC3=NC4=C(CN(C[C@@H](O4)C5=CC=CC=C5)C)C=C3)OC""
+}
+reaction_role: PRODUCT
+is_desired_product: true
+"
+53,outcomes,,,"{
+  ""analysisKey"": """",
+  ""type"": ""YIELD"",
+  ""details"": """",
+  ""usesInternalStandard"": false,
+  ""isNormalized"": false,
+  ""usesAuthenticStandard"": false,
+  ""percentage"": {
+    ""value"": 27.889999389648438,
+    ""precision"": 0
+  },
+  ""stringValue"": """"
+}
+"
+54,outcomes,CC1=CN(C=N1)C2=C(C=C(C=C2)NC3=NC4=C(CN(C[C@@H](O4)C5=CC=CC=C5)C)C=C3)OC,PRODUCT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CC1=CN(C=N1)C2=C(C=C(C=C2)NC3=NC4=C(CN(C[C@@H](O4)C5=CC=CC=C5)C)C=C3)OC""
+}
+reaction_role: PRODUCT
+is_desired_product: true
+"
+55,outcomes,,,"{
+  ""analysisKey"": """",
+  ""type"": ""YIELD"",
+  ""details"": """",
+  ""usesInternalStandard"": false,
+  ""isNormalized"": false,
+  ""usesAuthenticStandard"": false,
+  ""percentage"": {
+    ""value"": 27.889999389648438,
+    ""precision"": 0
+  },
+  ""stringValue"": """"
+}
+"
+56,inputs,C(=O)([O-])[O-].[Cs+].[Cs+],REAGENT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""C(=O)([O-])[O-].[Cs+].[Cs+]""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.0010100000072270632,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: REAGENT
+"
+57,inputs,C(=O)([O-])[O-].[Cs+].[Cs+],REAGENT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""C(=O)([O-])[O-].[Cs+].[Cs+]""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.0010100000072270632,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: REAGENT
+"
+58,inputs,COCCOC,SOLVENT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""COCCOC""
+}
+amount: {
+  ""volume"": {
+    ""value"": 0.0020000000949949026,
+    ""units"": ""LITER""
+  }
+}
+reaction_role: SOLVENT
+"
+59,inputs,CC1=CN(C=N1)C2=C(C=C(C=C2)N)OC,REACTANT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CC1=CN(C=N1)C2=C(C=C(C=C2)N)OC""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.0003370000049471855,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: REACTANT
+"
+60,inputs,CC1=NN(C(=C1)C2CN(CC3=C(O2)N=C(C=C3)Cl)CC#N)C,REACTANT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CC1=NN(C(=C1)C2CN(CC3=C(O2)N=C(C=C3)Cl)CC#N)C""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.0003370000049471855,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: REACTANT
+"
+61,inputs,C1CCC(CC1)P(C2CCCCC2)C3=CC=CC=C3C4=CC=CC=C4,CATALYST,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""C1CCC(CC1)P(C2CCCCC2)C3=CC=CC=C3C4=CC=CC=C4""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.00003369999831193127,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: CATALYST
+"
+62,inputs,CC(=O)O.CC(=O)O.[Pd],CATALYST,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CC(=O)O.CC(=O)O.[Pd]""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.00003369999831193127,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: CATALYST
+"
+63,outcomes,CC1=NN(C(=C1)C2CN(CC3=C(O2)N=C(C=C3)NC4=CC(=C(C=C4)N5C=C(N=C5)C)OC)CC#N)C,PRODUCT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CC1=NN(C(=C1)C2CN(CC3=C(O2)N=C(C=C3)NC4=CC(=C(C=C4)N5C=C(N=C5)C)OC)CC#N)C""
+}
+reaction_role: PRODUCT
+is_desired_product: true
+"
+64,outcomes,,,"{
+  ""analysisKey"": """",
+  ""type"": ""YIELD"",
+  ""details"": """",
+  ""usesInternalStandard"": false,
+  ""isNormalized"": false,
+  ""usesAuthenticStandard"": false,
+  ""percentage"": {
+    ""value"": 16.549999237060547,
+    ""precision"": 0
+  },
+  ""stringValue"": """"
+}
+"
+65,outcomes,CC1=NN(C(=C1)C2CN(CC3=C(O2)N=C(C=C3)NC4=CC(=C(C=C4)N5C=C(N=C5)C)OC)CC#N)C,PRODUCT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CC1=NN(C(=C1)C2CN(CC3=C(O2)N=C(C=C3)NC4=CC(=C(C=C4)N5C=C(N=C5)C)OC)CC#N)C""
+}
+reaction_role: PRODUCT
+is_desired_product: true
+"
+66,outcomes,,,"{
+  ""analysisKey"": """",
+  ""type"": ""YIELD"",
+  ""details"": """",
+  ""usesInternalStandard"": false,
+  ""isNormalized"": false,
+  ""usesAuthenticStandard"": false,
+  ""percentage"": {
+    ""value"": 16.549999237060547,
+    ""precision"": 0
+  },
+  ""stringValue"": """"
+}
+"
+67,inputs,C(=O)([O-])[O-].[Cs+].[Cs+],REAGENT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""C(=O)([O-])[O-].[Cs+].[Cs+]""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.006800000090152025,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: REAGENT
+"
+68,inputs,C(=O)([O-])[O-].[Cs+].[Cs+],REAGENT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""C(=O)([O-])[O-].[Cs+].[Cs+]""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.006800000090152025,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: REAGENT
+"
+69,inputs,C1COCCO1,SOLVENT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""C1COCCO1""
+}
+amount: {
+  ""volume"": {
+    ""value"": 0.30000001192092896,
+    ""units"": ""LITER""
+  }
+}
+reaction_role: SOLVENT
+"
+70,inputs,CNC(=O)C1=C(C=CC=C1OC)N,REACTANT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CNC(=O)C1=C(C=CC=C1OC)N""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.10199999809265137,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: REACTANT
+"
+71,inputs,CC1=NN(C=C1NC2=NC=C(C(=C2)I)C(F)(F)F)C,REACTANT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CC1=NN(C=C1NC2=NC=C(C(=C2)I)C(F)(F)F)C""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.06800000369548798,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: REACTANT
+"
+72,inputs,CC1(C2=C(C(=CC=C2)P(C3=CC=CC=C3)C4=CC=CC=C4)OC5=C1C=CC=C5P(C6=CC=CC=C6)C7=CC=CC=C7)C,CATALYST,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CC1(C2=C(C(=CC=C2)P(C3=CC=CC=C3)C4=CC=CC=C4)OC5=C1C=CC=C5P(C6=CC=CC=C6)C7=CC=CC=C7)C""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.006800000090152025,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: CATALYST
+"
+73,inputs,CC(=O)O.CC(=O)O.[Pd],CATALYST,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CC(=O)O.CC(=O)O.[Pd]""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.0034000000450760126,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: CATALYST
+"
+74,outcomes,CC1=NN(C=C1NC2=NC=C(C(=C2)NC3=C(C(=CC=C3)OC)C(=O)NC)C(F)(F)F)C,PRODUCT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CC1=NN(C=C1NC2=NC=C(C(=C2)NC3=C(C(=CC=C3)OC)C(=O)NC)C(F)(F)F)C""
+}
+reaction_role: PRODUCT
+is_desired_product: true
+"
+75,outcomes,,,"{
+  ""analysisKey"": """",
+  ""type"": ""YIELD"",
+  ""details"": """",
+  ""usesInternalStandard"": false,
+  ""isNormalized"": false,
+  ""usesAuthenticStandard"": false,
+  ""percentage"": {
+    ""value"": 58.529998779296875,
+    ""precision"": 0
+  },
+  ""stringValue"": """"
+}
+"
+76,outcomes,CC1=NN(C=C1NC2=NC=C(C(=C2)NC3=C(C(=CC=C3)OC)C(=O)NC)C(F)(F)F)C,PRODUCT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CC1=NN(C=C1NC2=NC=C(C(=C2)NC3=C(C(=CC=C3)OC)C(=O)NC)C(F)(F)F)C""
+}
+reaction_role: PRODUCT
+is_desired_product: true
+"
+77,outcomes,,,"{
+  ""analysisKey"": """",
+  ""type"": ""YIELD"",
+  ""details"": """",
+  ""usesInternalStandard"": false,
+  ""isNormalized"": false,
+  ""usesAuthenticStandard"": false,
+  ""percentage"": {
+    ""value"": 58.529998779296875,
+    ""precision"": 0
+  },
+  ""stringValue"": """"
+}
+"
+78,inputs,CC(C)(C)[O-].[Na+],REAGENT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CC(C)(C)[O-].[Na+]""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.0003530000103637576,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: REAGENT
+"
+79,inputs,CC(C)(C)[O-].[Na+],REAGENT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CC(C)(C)[O-].[Na+]""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.0003530000103637576,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: REAGENT
+"
+80,inputs,CC1=CC=CC=C1,SOLVENT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CC1=CC=CC=C1""
+}
+amount: {
+  ""volume"": {
+    ""value"": 0.009999999776482582,
+    ""units"": ""LITER""
+  }
+}
+reaction_role: SOLVENT
+"
+81,inputs,C1CCN(CC1)C2CCNCC2,REACTANT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""C1CCN(CC1)C2CCNCC2""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.003530000103637576,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: REACTANT
+"
+82,inputs,C1=CC(=CC=C1Br)I,REACTANT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""C1=CC(=CC=C1Br)I""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.003530000103637576,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: REACTANT
+"
+83,inputs,CC1(C2=C(C(=CC=C2)P(C3=CC=CC=C3)C4=CC=CC=C4)OC5=C1C=CC=C5P(C6=CC=CC=C6)C7=CC=CC=C7)C,CATALYST,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CC1(C2=C(C(=CC=C2)P(C3=CC=CC=C3)C4=CC=CC=C4)OC5=C1C=CC=C5P(C6=CC=CC=C6)C7=CC=CC=C7)C""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.0003530000103637576,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: CATALYST
+"
+84,inputs,C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.[Pd].[Pd],CATALYST,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.[Pd].[Pd]""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.00017699999443721026,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: CATALYST
+"
+85,outcomes,C1CCN(CC1)C2CCN(CC2)C3=CC=C(C=C3)Br,PRODUCT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""C1CCN(CC1)C2CCN(CC2)C3=CC=C(C=C3)Br""
+}
+reaction_role: PRODUCT
+is_desired_product: true
+"
+86,outcomes,,,"{
+  ""analysisKey"": """",
+  ""type"": ""YIELD"",
+  ""details"": """",
+  ""usesInternalStandard"": false,
+  ""isNormalized"": false,
+  ""usesAuthenticStandard"": false,
+  ""percentage"": {
+    ""value"": 64.41000366210938,
+    ""precision"": 0
+  },
+  ""stringValue"": """"
+}
+"
+87,outcomes,C1CCN(CC1)C2CCN(CC2)C3=CC=C(C=C3)Br,PRODUCT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""C1CCN(CC1)C2CCN(CC2)C3=CC=C(C=C3)Br""
+}
+reaction_role: PRODUCT
+is_desired_product: true
+"
+88,outcomes,,,"{
+  ""analysisKey"": """",
+  ""type"": ""YIELD"",
+  ""details"": """",
+  ""usesInternalStandard"": false,
+  ""isNormalized"": false,
+  ""usesAuthenticStandard"": false,
+  ""percentage"": {
+    ""value"": 64.41000366210938,
+    ""precision"": 0
+  },
+  ""stringValue"": """"
+}
+"
+89,inputs,C(=O)([O-])[O-].[Cs+].[Cs+],REAGENT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""C(=O)([O-])[O-].[Cs+].[Cs+]""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.000035000000934815034,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: REAGENT
+"
+90,inputs,C(=O)([O-])[O-].[Cs+].[Cs+],REAGENT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""C(=O)([O-])[O-].[Cs+].[Cs+]""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.000035000000934815034,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: REAGENT
+"
+91,inputs,C1COCCO1,SOLVENT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""C1COCCO1""
+}
+amount: {
+  ""volume"": {
+    ""value"": 0.004000000189989805,
+    ""units"": ""LITER""
+  }
+}
+reaction_role: SOLVENT
+"
+92,inputs,CN(C)C(=O)C1=CC2=C(C(=C1)C3CCCN3)OC(=CC2=O)N4CCOCC4,REACTANT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CN(C)C(=O)C1=CC2=C(C(=C1)C3CCCN3)OC(=CC2=O)N4CCOCC4""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.0003499999875202775,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: REACTANT
+"
+93,inputs,C1=C(C=C(C=C1F)Br)C#N,REACTANT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""C1=C(C=C(C=C1F)Br)C#N""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.00043700000969693065,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: REACTANT
+"
+94,inputs,CC1(C2=C(C(=CC=C2)P(C3=CC=CC=C3)C4=CC=CC=C4)OC5=C1C=CC=C5P(C6=CC=CC=C6)C7=CC=CC=C7)C,CATALYST,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CC1(C2=C(C(=CC=C2)P(C3=CC=CC=C3)C4=CC=CC=C4)OC5=C1C=CC=C5P(C6=CC=CC=C6)C7=CC=CC=C7)C""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.000035000000934815034,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: CATALYST
+"
+95,inputs,CC(=O)O.CC(=O)O.[Pd],CATALYST,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CC(=O)O.CC(=O)O.[Pd]""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.000017500000467407517,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: CATALYST
+"
+96,outcomes,CN(C)C(=O)C1=CC2=C(C(=C1)C3CCCN3C4=CC(=CC(=C4)C#N)F)OC(=CC2=O)N5CCOCC5,PRODUCT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CN(C)C(=O)C1=CC2=C(C(=C1)C3CCCN3C4=CC(=CC(=C4)C#N)F)OC(=CC2=O)N5CCOCC5""
+}
+reaction_role: PRODUCT
+is_desired_product: true
+"
+97,outcomes,,,"{
+  ""analysisKey"": """",
+  ""type"": ""YIELD"",
+  ""details"": """",
+  ""usesInternalStandard"": false,
+  ""isNormalized"": false,
+  ""usesAuthenticStandard"": false,
+  ""percentage"": {
+    ""value"": 52.41999816894531,
+    ""precision"": 0
+  },
+  ""stringValue"": """"
+}
+"
+98,outcomes,CN(C)C(=O)C1=CC2=C(C(=C1)C3CCCN3C4=CC(=CC(=C4)C#N)F)OC(=CC2=O)N5CCOCC5,PRODUCT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CN(C)C(=O)C1=CC2=C(C(=C1)C3CCCN3C4=CC(=CC(=C4)C#N)F)OC(=CC2=O)N5CCOCC5""
+}
+reaction_role: PRODUCT
+is_desired_product: true
+"
+99,outcomes,,,"{
+  ""analysisKey"": """",
+  ""type"": ""YIELD"",
+  ""details"": """",
+  ""usesInternalStandard"": false,
+  ""isNormalized"": false,
+  ""usesAuthenticStandard"": false,
+  ""percentage"": {
+    ""value"": 52.41999816894531,
+    ""precision"": 0
+  },
+  ""stringValue"": """"
+}
+"
+100,inputs,C(=O)([O-])[O-].[Cs+].[Cs+],REAGENT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""C(=O)([O-])[O-].[Cs+].[Cs+]""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.0027000000700354576,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: REAGENT
+"
+101,inputs,C(=O)([O-])[O-].[Cs+].[Cs+],REAGENT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""C(=O)([O-])[O-].[Cs+].[Cs+]""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.0027000000700354576,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: REAGENT
+"
+102,inputs,C1COCCO1,SOLVENT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""C1COCCO1""
+}
+amount: {
+  ""volume"": {
+    ""value"": 0.019999999552965164,
+    ""units"": ""LITER""
+  }
+}
+reaction_role: SOLVENT
+"
+103,inputs,CN1C(=CC=N1)N,REACTANT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CN1C(=CC=N1)N""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.0016199999954551458,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: REACTANT
+"
+104,inputs,C1=CN=C(C=C1Cl)Cl,REACTANT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""C1=CN=C(C=C1Cl)Cl""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.0013500000350177288,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: REACTANT
+"
+105,inputs,CC1(C2=C(C(=CC=C2)P(C3=CC=CC=C3)C4=CC=CC=C4)OC5=C1C=CC=C5P(C6=CC=CC=C6)C7=CC=CC=C7)C,CATALYST,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CC1(C2=C(C(=CC=C2)P(C3=CC=CC=C3)C4=CC=CC=C4)OC5=C1C=CC=C5P(C6=CC=CC=C6)C7=CC=CC=C7)C""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.0002699999895412475,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: CATALYST
+"
+106,inputs,C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.[Pd].[Pd],CATALYST,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.[Pd].[Pd]""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.00013499999477062374,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: CATALYST
+"
+107,outcomes,CN1C(=CC=N1)NC2=NC=CC(=C2)Cl,PRODUCT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CN1C(=CC=N1)NC2=NC=CC(=C2)Cl""
+}
+reaction_role: PRODUCT
+is_desired_product: true
+"
+108,outcomes,,,"{
+  ""analysisKey"": """",
+  ""type"": ""YIELD"",
+  ""details"": """",
+  ""usesInternalStandard"": false,
+  ""isNormalized"": false,
+  ""usesAuthenticStandard"": false,
+  ""percentage"": {
+    ""value"": 23.40999984741211,
+    ""precision"": 0
+  },
+  ""stringValue"": """"
+}
+"
+109,outcomes,CN1C(=CC=N1)NC2=NC=CC(=C2)Cl,PRODUCT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CN1C(=CC=N1)NC2=NC=CC(=C2)Cl""
+}
+reaction_role: PRODUCT
+is_desired_product: true
+"
+110,outcomes,,,"{
+  ""analysisKey"": """",
+  ""type"": ""YIELD"",
+  ""details"": """",
+  ""usesInternalStandard"": false,
+  ""isNormalized"": false,
+  ""usesAuthenticStandard"": false,
+  ""percentage"": {
+    ""value"": 23.40999984741211,
+    ""precision"": 0
+  },
+  ""stringValue"": """"
+}
+"
+111,inputs,C(=O)([O-])[O-].[Cs+].[Cs+],REAGENT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""C(=O)([O-])[O-].[Cs+].[Cs+]""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.0006880000000819564,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: REAGENT
+"
+112,inputs,C(=O)([O-])[O-].[Cs+].[Cs+],REAGENT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""C(=O)([O-])[O-].[Cs+].[Cs+]""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.0006880000000819564,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: REAGENT
+"
+113,inputs,C1COCCO1,SOLVENT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""C1COCCO1""
+}
+amount: {
+  ""volume"": {
+    ""value"": 0.03700000047683716,
+    ""units"": ""LITER""
+  }
+}
+reaction_role: SOLVENT
+"
+114,inputs,CNC(=O)C1=C(C=CC=C1OC)N,REACTANT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CNC(=O)C1=C(C=CC=C1OC)N""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.013799999840557575,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: REACTANT
+"
+115,inputs,CC1=NN(C=C1NC2=NC=C(C(=C2)I)C(F)(F)F)C,REACTANT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CC1=NN(C=C1NC2=NC=C(C(=C2)I)C(F)(F)F)C""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.00687999976798892,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: REACTANT
+"
+116,inputs,CC1(C2=C(C(=CC=C2)P(C3=CC=CC=C3)C4=CC=CC=C4)OC5=C1C=CC=C5P(C6=CC=CC=C6)C7=CC=CC=C7)C,CATALYST,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CC1(C2=C(C(=CC=C2)P(C3=CC=CC=C3)C4=CC=CC=C4)OC5=C1C=CC=C5P(C6=CC=CC=C6)C7=CC=CC=C7)C""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.0006880000000819564,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: CATALYST
+"
+117,inputs,CC(=O)O.CC(=O)O.[Pd],CATALYST,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CC(=O)O.CC(=O)O.[Pd]""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.0003440000000409782,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: CATALYST
+"
+118,outcomes,CC1=NN(C=C1NC2=NC=C(C(=C2)NC3=C(C(=CC=C3)OC)C(=O)NC)C(F)(F)F)C,PRODUCT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CC1=NN(C=C1NC2=NC=C(C(=C2)NC3=C(C(=CC=C3)OC)C(=O)NC)C(F)(F)F)C""
+}
+reaction_role: PRODUCT
+is_desired_product: true
+"
+119,outcomes,,,"{
+  ""analysisKey"": """",
+  ""type"": ""YIELD"",
+  ""details"": """",
+  ""usesInternalStandard"": false,
+  ""isNormalized"": false,
+  ""usesAuthenticStandard"": false,
+  ""percentage"": {
+    ""value"": 52.5099983215332,
+    ""precision"": 0
+  },
+  ""stringValue"": """"
+}
+"
+120,outcomes,CC1=NN(C=C1NC2=NC=C(C(=C2)NC3=C(C(=CC=C3)OC)C(=O)NC)C(F)(F)F)C,PRODUCT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CC1=NN(C=C1NC2=NC=C(C(=C2)NC3=C(C(=CC=C3)OC)C(=O)NC)C(F)(F)F)C""
+}
+reaction_role: PRODUCT
+is_desired_product: true
+"
+121,outcomes,,,"{
+  ""analysisKey"": """",
+  ""type"": ""YIELD"",
+  ""details"": """",
+  ""usesInternalStandard"": false,
+  ""isNormalized"": false,
+  ""usesAuthenticStandard"": false,
+  ""percentage"": {
+    ""value"": 52.5099983215332,
+    ""precision"": 0
+  },
+  ""stringValue"": """"
+}
+"
+122,inputs,C(=O)([O-])[O-].[Cs+].[Cs+],REAGENT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""C(=O)([O-])[O-].[Cs+].[Cs+]""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.0016599999507889152,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: REAGENT
+"
+123,inputs,C(=O)([O-])[O-].[Cs+].[Cs+],REAGENT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""C(=O)([O-])[O-].[Cs+].[Cs+]""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.0016599999507889152,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: REAGENT
+"
+124,inputs,C1COCCO1,SOLVENT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""C1COCCO1""
+}
+amount: {
+  ""volume"": {
+    ""value"": 0.0020000000949949026,
+    ""units"": ""LITER""
+  }
+}
+reaction_role: SOLVENT
+"
+125,inputs,CC(C)(C)OC(=O)N1CCC(CC1)(CN=C(C2=CC=CC=C2)C3=CC=CC=C3)C(=O)N,REACTANT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CC(C)(C)OC(=O)N1CCC(CC1)(CN=C(C2=CC=CC=C2)C3=CC=CC=C3)C(=O)N""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.0011899999808520079,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: REACTANT
+"
+126,inputs,C1=CN=C(C=C1C(F)(F)F)Br,REACTANT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""C1=CN=C(C=C1C(F)(F)F)Br""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.0011899999808520079,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: REACTANT
+"
+127,inputs,CC1(C2=C(C(=CC=C2)P(C3=CC=CC=C3)C4=CC=CC=C4)OC5=C1C=CC=C5P(C6=CC=CC=C6)C7=CC=CC=C7)C,CATALYST,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CC1(C2=C(C(=CC=C2)P(C3=CC=CC=C3)C4=CC=CC=C4)OC5=C1C=CC=C5P(C6=CC=CC=C6)C7=CC=CC=C7)C""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.00005339999916031957,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: CATALYST
+"
+128,inputs,CC(=O)O.CC(=O)O.[Pd],CATALYST,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CC(=O)O.CC(=O)O.[Pd]""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.00003559999822755344,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: CATALYST
+"
+129,outcomes,CC(C)(C)OC(=O)N1CCC(CC1)(CN=C(C2=CC=CC=C2)C3=CC=CC=C3)C(=O)NC4=NC=CC(=C4)C(F)(F)F,PRODUCT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CC(C)(C)OC(=O)N1CCC(CC1)(CN=C(C2=CC=CC=C2)C3=CC=CC=C3)C(=O)NC4=NC=CC(=C4)C(F)(F)F""
+}
+reaction_role: PRODUCT
+is_desired_product: true
+"
+130,outcomes,,,"{
+  ""analysisKey"": """",
+  ""type"": ""YIELD"",
+  ""details"": """",
+  ""usesInternalStandard"": false,
+  ""isNormalized"": false,
+  ""usesAuthenticStandard"": false,
+  ""percentage"": {
+    ""value"": 71.41999816894531,
+    ""precision"": 0
+  },
+  ""stringValue"": """"
+}
+"
+131,outcomes,CC(C)(C)OC(=O)N1CCC(CC1)(CN=C(C2=CC=CC=C2)C3=CC=CC=C3)C(=O)NC4=NC=CC(=C4)C(F)(F)F,PRODUCT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CC(C)(C)OC(=O)N1CCC(CC1)(CN=C(C2=CC=CC=C2)C3=CC=CC=C3)C(=O)NC4=NC=CC(=C4)C(F)(F)F""
+}
+reaction_role: PRODUCT
+is_desired_product: true
+"
+132,outcomes,,,"{
+  ""analysisKey"": """",
+  ""type"": ""YIELD"",
+  ""details"": """",
+  ""usesInternalStandard"": false,
+  ""isNormalized"": false,
+  ""usesAuthenticStandard"": false,
+  ""percentage"": {
+    ""value"": 71.41999816894531,
+    ""precision"": 0
+  },
+  ""stringValue"": """"
+}
+"
+133,inputs,C(=O)([O-])[O-].[Cs+].[Cs+],REAGENT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""C(=O)([O-])[O-].[Cs+].[Cs+]""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.00024399999529123306,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: REAGENT
+"
+134,inputs,C(=O)([O-])[O-].[Cs+].[Cs+],REAGENT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""C(=O)([O-])[O-].[Cs+].[Cs+]""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.00024399999529123306,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: REAGENT
+"
+135,inputs,C1COCCO1,SOLVENT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""C1COCCO1""
+}
+amount: {
+  ""volume"": {
+    ""value"": 0.003000000026077032,
+    ""units"": ""LITER""
+  }
+}
+reaction_role: SOLVENT
+"
+136,inputs,CS(=O)(=O)CC1=CC(=CC=C1)N,REACTANT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CS(=O)(=O)CC1=CC(=CC=C1)N""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.0009740000241436064,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: REACTANT
+"
+137,inputs,COC1=C(C=CC(=C1)F)C2=NC(=NC=C2F)Cl,REACTANT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""COC1=C(C=CC(=C1)F)C2=NC(=NC=C2F)Cl""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.0009740000241436064,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: REACTANT
+"
+138,inputs,CC1(C2=C(C(=CC=C2)P(C3=CC=CC=C3)C4=CC=CC=C4)OC5=C1C=CC=C5P(C6=CC=CC=C6)C7=CC=CC=C7)C,CATALYST,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CC1(C2=C(C(=CC=C2)P(C3=CC=CC=C3)C4=CC=CC=C4)OC5=C1C=CC=C5P(C6=CC=CC=C6)C7=CC=CC=C7)C""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.00024399999529123306,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: CATALYST
+"
+139,inputs,C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.[Pd].[Pd],CATALYST,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.[Pd].[Pd]""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.00019500000053085387,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: CATALYST
+"
+140,outcomes,COC1=C(C=CC(=C1)F)C2=NC(=NC=C2F)NC3=CC=CC(=C3)CS(=O)(=O)C,PRODUCT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""COC1=C(C=CC(=C1)F)C2=NC(=NC=C2F)NC3=CC=CC(=C3)CS(=O)(=O)C""
+}
+reaction_role: PRODUCT
+is_desired_product: true
+"
+141,outcomes,,,"{
+  ""analysisKey"": """",
+  ""type"": ""YIELD"",
+  ""details"": """",
+  ""usesInternalStandard"": false,
+  ""isNormalized"": false,
+  ""usesAuthenticStandard"": false,
+  ""percentage"": {
+    ""value"": 50.63999938964844,
+    ""precision"": 0
+  },
+  ""stringValue"": """"
+}
+"
+142,outcomes,COC1=C(C=CC(=C1)F)C2=NC(=NC=C2F)NC3=CC=CC(=C3)CS(=O)(=O)C,PRODUCT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""COC1=C(C=CC(=C1)F)C2=NC(=NC=C2F)NC3=CC=CC(=C3)CS(=O)(=O)C""
+}
+reaction_role: PRODUCT
+is_desired_product: true
+"
+143,outcomes,,,"{
+  ""analysisKey"": """",
+  ""type"": ""YIELD"",
+  ""details"": """",
+  ""usesInternalStandard"": false,
+  ""isNormalized"": false,
+  ""usesAuthenticStandard"": false,
+  ""percentage"": {
+    ""value"": 50.63999938964844,
+    ""precision"": 0
+  },
+  ""stringValue"": """"
+}
+"
+144,inputs,C(=O)([O-])[O-].[Cs+].[Cs+],REAGENT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""C(=O)([O-])[O-].[Cs+].[Cs+]""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.000035000000934815034,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: REAGENT
+"
+145,inputs,C(=O)([O-])[O-].[Cs+].[Cs+],REAGENT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""C(=O)([O-])[O-].[Cs+].[Cs+]""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.000035000000934815034,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: REAGENT
+"
+146,inputs,C1COCCO1,SOLVENT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""C1COCCO1""
+}
+amount: {
+  ""volume"": {
+    ""value"": 0.004000000189989805,
+    ""units"": ""LITER""
+  }
+}
+reaction_role: SOLVENT
+"
+147,inputs,CN(C)C(=O)C1=CC2=C(C(=C1)C3CCCN3)OC(=CC2=O)N4CCOCC4,REACTANT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CN(C)C(=O)C1=CC2=C(C(=C1)C3CCCN3)OC(=CC2=O)N4CCOCC4""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.0003499999875202775,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: REACTANT
+"
+148,inputs,COC1=CC(=CC=C1)Br,REACTANT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""COC1=CC(=CC=C1)Br""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.00043700000969693065,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: REACTANT
+"
+149,inputs,CC1(C2=C(C(=CC=C2)P(C3=CC=CC=C3)C4=CC=CC=C4)OC5=C1C=CC=C5P(C6=CC=CC=C6)C7=CC=CC=C7)C,CATALYST,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CC1(C2=C(C(=CC=C2)P(C3=CC=CC=C3)C4=CC=CC=C4)OC5=C1C=CC=C5P(C6=CC=CC=C6)C7=CC=CC=C7)C""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.000035000000934815034,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: CATALYST
+"
+150,inputs,CC(=O)O.CC(=O)O.[Pd],CATALYST,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CC(=O)O.CC(=O)O.[Pd]""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.000017500000467407517,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: CATALYST
+"
+151,outcomes,CN(C)C(=O)C1=CC2=C(C(=C1)C3CCCN3C4=CC(=CC=C4)OC)OC(=CC2=O)N5CCOCC5,PRODUCT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CN(C)C(=O)C1=CC2=C(C(=C1)C3CCCN3C4=CC(=CC=C4)OC)OC(=CC2=O)N5CCOCC5""
+}
+reaction_role: PRODUCT
+is_desired_product: true
+"
+152,outcomes,,,"{
+  ""analysisKey"": """",
+  ""type"": ""YIELD"",
+  ""details"": """",
+  ""usesInternalStandard"": false,
+  ""isNormalized"": false,
+  ""usesAuthenticStandard"": false,
+  ""percentage"": {
+    ""value"": 27.520000457763672,
+    ""precision"": 0
+  },
+  ""stringValue"": """"
+}
+"
+153,outcomes,CN(C)C(=O)C1=CC2=C(C(=C1)C3CCCN3C4=CC(=CC=C4)OC)OC(=CC2=O)N5CCOCC5,PRODUCT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CN(C)C(=O)C1=CC2=C(C(=C1)C3CCCN3C4=CC(=CC=C4)OC)OC(=CC2=O)N5CCOCC5""
+}
+reaction_role: PRODUCT
+is_desired_product: true
+"
+154,outcomes,,,"{
+  ""analysisKey"": """",
+  ""type"": ""YIELD"",
+  ""details"": """",
+  ""usesInternalStandard"": false,
+  ""isNormalized"": false,
+  ""usesAuthenticStandard"": false,
+  ""percentage"": {
+    ""value"": 27.520000457763672,
+    ""precision"": 0
+  },
+  ""stringValue"": """"
+}
+"
+155,inputs,CC(C)(C)[O-].[Na+],REAGENT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CC(C)(C)[O-].[Na+]""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.00019500000053085387,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: REAGENT
+"
+156,inputs,CC(C)(C)[O-].[Na+],REAGENT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CC(C)(C)[O-].[Na+]""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.00019500000053085387,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: REAGENT
+"
+157,inputs,C1COCCO1,SOLVENT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""C1COCCO1""
+}
+amount: {
+  ""volume"": {
+    ""value"": 0.0008999999845400453,
+    ""units"": ""LITER""
+  }
+}
+reaction_role: SOLVENT
+"
+158,inputs,CC1=CC2=C(N1)C=C(C=C2)OC(F)(F)F,REACTANT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CC1=CC2=C(N1)C=C(C=C2)OC(F)(F)F""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.00013899999612476677,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: REACTANT
+"
+159,inputs,C1=CC=C(C=C1)COC2=CC(=CC=C2)I,REACTANT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""C1=CC=C(C=C1)COC2=CC(=CC=C2)I""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.00016700000560376793,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: REACTANT
+"
+160,inputs,CC(C)(C)P(C1=CC=CC=C1C2=CC=CC=C2)C(C)(C)C,CATALYST,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CC(C)(C)P(C1=CC=CC=C1C2=CC=CC=C2)C(C)(C)C""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.00003139999898849055,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: CATALYST
+"
+161,inputs,C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.[Pd].[Pd],CATALYST,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.[Pd].[Pd]""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.00001049999991664663,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: CATALYST
+"
+162,outcomes,CC1=CC2=C(N1C3=CC(=CC=C3)OCC4=CC=CC=C4)C=C(C=C2)OC(F)(F)F,PRODUCT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CC1=CC2=C(N1C3=CC(=CC=C3)OCC4=CC=CC=C4)C=C(C=C2)OC(F)(F)F""
+}
+reaction_role: PRODUCT
+is_desired_product: true
+"
+163,outcomes,,,"{
+  ""analysisKey"": """",
+  ""type"": ""YIELD"",
+  ""details"": """",
+  ""usesInternalStandard"": false,
+  ""isNormalized"": false,
+  ""usesAuthenticStandard"": false,
+  ""percentage"": {
+    ""value"": 40.16999816894531,
+    ""precision"": 0
+  },
+  ""stringValue"": """"
+}
+"
+164,outcomes,CC1=CC2=C(N1C3=CC(=CC=C3)OCC4=CC=CC=C4)C=C(C=C2)OC(F)(F)F,PRODUCT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CC1=CC2=C(N1C3=CC(=CC=C3)OCC4=CC=CC=C4)C=C(C=C2)OC(F)(F)F""
+}
+reaction_role: PRODUCT
+is_desired_product: true
+"
+165,outcomes,,,"{
+  ""analysisKey"": """",
+  ""type"": ""YIELD"",
+  ""details"": """",
+  ""usesInternalStandard"": false,
+  ""isNormalized"": false,
+  ""usesAuthenticStandard"": false,
+  ""percentage"": {
+    ""value"": 40.16999816894531,
+    ""precision"": 0
+  },
+  ""stringValue"": """"
+}
+"
+166,inputs,CC(C)(C)[O-].[Na+],REAGENT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CC(C)(C)[O-].[Na+]""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.00029799999902024865,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: REAGENT
+"
+167,inputs,CC(C)(C)[O-].[Na+],REAGENT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CC(C)(C)[O-].[Na+]""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.00029799999902024865,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: REAGENT
+"
+168,inputs,CC1=CC=CC=C1,SOLVENT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CC1=CC=CC=C1""
+}
+amount: {
+  ""volume"": {
+    ""value"": 0.009999999776482582,
+    ""units"": ""LITER""
+  }
+}
+reaction_role: SOLVENT
+"
+169,inputs,C1CNC1,REACTANT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""C1CNC1""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.01489999983459711,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: REACTANT
+"
+170,inputs,C1=CC(=CC=C1C#N)Br,REACTANT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""C1=CC(=CC=C1C#N)Br""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.007439999841153622,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: REACTANT
+"
+171,inputs,CC1(C2=C(C(=CC=C2)P(C3=CC=CC=C3)C4=CC=CC=C4)OC5=C1C=CC=C5P(C6=CC=CC=C6)C7=CC=CC=C7)C,CATALYST,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CC1(C2=C(C(=CC=C2)P(C3=CC=CC=C3)C4=CC=CC=C4)OC5=C1C=CC=C5P(C6=CC=CC=C6)C7=CC=CC=C7)C""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.00029799999902024865,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: CATALYST
+"
+172,inputs,CC(=O)O.CC(=O)O.[Pd],CATALYST,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""CC(=O)O.CC(=O)O.[Pd]""
+}
+amount: {
+  ""moles"": {
+    ""value"": 0.0002229999954579398,
+    ""units"": ""MOLE""
+  }
+}
+reaction_role: CATALYST
+"
+173,outcomes,C1CN(C1)C2=CC=C(C=C2)C#N,PRODUCT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""C1CN(C1)C2=CC=C(C=C2)C#N""
+}
+reaction_role: PRODUCT
+is_desired_product: true
+"
+174,outcomes,,,"{
+  ""analysisKey"": """",
+  ""type"": ""YIELD"",
+  ""details"": """",
+  ""usesInternalStandard"": false,
+  ""isNormalized"": false,
+  ""usesAuthenticStandard"": false,
+  ""percentage"": {
+    ""value"": 61.9900016784668,
+    ""precision"": 0
+  },
+  ""stringValue"": """"
+}
+"
+175,outcomes,C1CN(C1)C2=CC=C(C=C2)C#N,PRODUCT,"identifiers: {
+  ""type"": ""SMILES"",
+  ""value"": ""C1CN(C1)C2=CC=C(C=C2)C#N""
+}
+reaction_role: PRODUCT
+is_desired_product: true
+"
+176,outcomes,,,"{
+  ""analysisKey"": """",
+  ""type"": ""YIELD"",
+  ""details"": """",
+  ""usesInternalStandard"": false,
+  ""isNormalized"": false,
+  ""usesAuthenticStandard"": false,
+  ""percentage"": {
+    ""value"": 61.9900016784668,
+    ""precision"": 0
+  },
+  ""stringValue"": """"
+}
+"
